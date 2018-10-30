@@ -2,7 +2,10 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "portfolio",
-  "scripts": {},
+  "homepage": "https://anettye.github.io/Portfolio",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
   "keywords": [
     "gulp"
   ],
@@ -23,5 +26,8 @@
     "gulp-sourcemaps": "^2.1.1",
     "gulp-uglify": "^2.0.0",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
